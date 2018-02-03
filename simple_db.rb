@@ -8,11 +8,11 @@ gdbm.each_pair do |key, value|
 	hash[key] = value
 end
 
-puts "Welcome to the simple db type in your command."
+puts "Welcome to the simple db, type in your command."
 puts "here is a list of commands:"
 puts "set: save data to database. 'set 1 test"
 puts "get: gets the data from database. 'get 1"
-puts "read: reads alle the values stored in the database"
+puts "read: reads all the values stored in the database"
 puts "exit: exits the program."
 puts "help: prints the commands"
 while(is_running) do
@@ -37,6 +37,7 @@ while(is_running) do
 		puts "here is a list of commands"
 		puts "set: save data to database. 'set 1 test"
 		puts "get: gets the data from database. 'get 1"
+		puts "read: reads all the values stored in the database"
 		puts "exit: exits the program."
 		puts "help: prints the commands"
 
