@@ -2,7 +2,7 @@
 
 --**Guide til at køre programmet**--
 
-Metode 1 (!!!Kun hvis du har ruby og gdbm installeret!!!):
+Metode 1 (**!!!Kun hvis du har ruby og gdbm installeret!!!**):
 
 - Lokaliser mappen der indeholder; simple_db.rb
 
